@@ -1,0 +1,10 @@
+{
+    "states": ["q0", "q1", "q2"],
+    "initial_state": "q0",
+    "final_states": ["q2"],
+    "transitions": [
+        {"from": "q0", "to": "q1", "symbol": "a"},
+        {"from": "q1", "to": "q2", "symbol": "b"},
+        {"from": "q0", "to": "q0", "symbol": "a"}
+    ]
+}
